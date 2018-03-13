@@ -1,0 +1,28 @@
+{
+  "name": "tickettorideserver",
+  "version": "1.0.0",
+  "description": "Server that handles all of the heavy lifting for an automatically scoring Ticket to Ride board",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cweeks12/MagicSchoolTrain.git"
+  },
+  "keywords": [
+    "TicketToRide",
+    "IoT"
+  ],
+  "author": "Connor Weeks <connorweeks1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cweeks12/MagicSchoolTrain/issues"
+  },
+  "homepage": "https://github.com/cweeks12/MagicSchoolTrain#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
